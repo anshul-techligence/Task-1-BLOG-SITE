@@ -145,7 +145,7 @@ button:hover{
 }
 
 button:focus{
-  outline:  0.125rem solid var (--primary-color);
+  outline:  0.125rem solid var(--primary-color);
   outline-offset: 0.125rem ;
 }
 
