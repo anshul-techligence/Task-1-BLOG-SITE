@@ -1,7 +1,7 @@
 :root {
 
   --primary-color:#2563eb;
-  --background-colo: #f4f4f4;
+  --background-color:#f4f4f4;
   --card-color :#ffffff;
   --text-color :#222222;
   --border-color : #d1d5db;
@@ -70,14 +70,14 @@ h2 {
 }
 
 article {
-  background-color:var (--card-color) ;
+  background-color:var(--card-color) ;
   border: 0.0625rem solid var(--border-color);
   padding:1rem;
   margin-bottom:1rem;
   transition:0.3s;
 }
 
-article: hover {
+article:hover {
   border-color : var(--primary-color);
 }
 
