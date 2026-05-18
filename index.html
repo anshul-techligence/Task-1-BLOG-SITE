@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="a blog page using HTML and CSS">
+  <title>Blog Page / Task1</title >
+  <link rel="stylesheet" href= "styles.css">
+</head>
+
+
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav aria-label="main nav">
+      <ul>
+        <li><a  href="#articles">Articles</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li> <a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li >
+      </ul>
+    </nav>
+   </header>
+  <div class="container">
+
+<main id="articles">
+
+      <section>
+         <h2>recent articles</h2>
+        <article>
+          <h3>How to clean a dataset?</h3>
+          <p> <time datetime="2026-05-18">May 18, 2026</time></p>
+          <p>A post about how to cleanse any dataset.</p>
+          <a href="#">Read More</a>
+        </article>
+
+        <article>
+          <h3>Classification vs regression</h3>
+          <p><time datetime="2026-05-12">May 12, 2026</time></p>
+          <p>Learn basic of regression and classification</p>
+          <a href="#">Read More</a>
+        </article>
+
+        <article>
+          <h3 >Evaluation Metrics </h3>
+          <p><time datetime="2026-05-05">May 5, 2026</time></p>
+          <p>Understand model evaluation metrics</p>
+          <a href="#">Read More</a>
+        </article>
+        </section>
+
+
+      <section id= "skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>AI/ML</li>
+          <li>Backend</li>
+          <li>Git</li>
+        </ul>
+      </section>
+
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <article>
+          <h3>DataPilot.chat</h3>
+          <p>AI powered data science platform</p>
+        </article>
+
+         <article>
+          <h3>Portfolio Web</h3>
+          <p>Personal portfolio website built using html , js , css and Flask web framework</p>
+        </article>
+
+        </section>
+</main>
+
+
+    <aside>
+      <h2>Newsletter Signup</h2>
+      <form action="#" method="post">
+
+        <label for="name">Name</label>
+        <input type="text"  id="name" name="name" required>
+
+        <label for="email">Email id</label >
+        <input type="email"  id="email" name="email" required>
+
+        <button type="submit" >Subscribe</button>
+
+      </form>
+    </aside>
+
+  </div>
+
+  <section id="contact">
+    <h2>Contact me</h2 >
+    <form action ="#" method = "post">
+
+      <label for ="contact-name">Name</label>
+      <input type ="text" id= "contact-name" name= "contact-name"  required>
+
+      <label for="contact-email">Email</label>
+      <input type ="email" id="contact-email" name ="contact-email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name ="message" rows ="5" required></textarea>
+
+      <button type= "submit"  >send message</button>
+
+    </form>
+  </section>
+
+
+
+  <footer><p>Blog Page Techligence Task 1</p></footer>
+
+
+   </body>
+</html>
