@@ -144,7 +144,7 @@ button:hover{
   opacity:  0.9 ;
 }
 
-button: focus{
+button:focus{
   outline:  0.125rem solid var (--primary-color);
   outline-offset: 0.125rem ;
 }
