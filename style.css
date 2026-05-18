@@ -124,7 +124,7 @@ form textarea{
   border:0.0625rem solid var(--border-color) ;
 }
 
-form input: focus ,
+form input:focus,
 form textarea:focus{
   outline: 0.125rem solid var(--primary-color);
   outline-offset: 0.125rem ;
